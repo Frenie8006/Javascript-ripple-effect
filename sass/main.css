@@ -26,7 +26,7 @@ body {
   background-color: #051118;
 }
 
-button {
+.ripple {
   background-color: #0a2351;
   color: #fff;
   font-size: 1.4rem;
@@ -36,6 +36,9 @@ button {
   padding: 2rem 3rem;
   overflow: hidden;
   position: relative;
+}
+.ripple:focus {
+  outline: none;
 }
 
 .circle {

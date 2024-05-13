@@ -23,4 +23,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #051118;
+}
+
+button {
+  background-color: #0a2351;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border: 1px solid #002d62;
+  letter-spacing: 2px;
+  padding: 2rem 3rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 2.7rem;
+  left: 8.2rem;
+  background-color: #fff;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

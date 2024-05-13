@@ -51,12 +51,12 @@ body {
   width: 10rem;
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
-  animation: scale 0.5s ease-out;
+  animation: scale 0.4s ease-out;
 }
 
 @keyframes scale {
   to {
-    transform: translate(-50%, -50%) scale(3);
+    transform: translate(-50%, -50%) scale(0.5);
     opacity: 0;
   }
 }/*# sourceMappingURL=main.css.map */

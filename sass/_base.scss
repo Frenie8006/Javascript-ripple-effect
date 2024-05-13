@@ -1,0 +1,62 @@
+///////// COLORS
+// $primary-color: #000;
+// $secondary-color: #fff;
+// $tertiary-color: #e74c3c;
+
+// $secondary-color-hover: rgba(87, 84, 236, 1);
+// $tertiary-color-hover: rgba(28, 122, 28, 1);
+
+// $light-color--1: #eee;
+// $light-color--2: #e0e0e0;
+// $dark-color--1: #333;
+// $dark-color--2: #555;
+
+////////// FONTS
+$primary-font: 'Roboto', sans-serif;
+$secondary-font: 'Heebo', sans-serif;
+
+////////// CUSTOMIZATION
+$border-color: #144fc6;
+$fill-color: #6ab3f8;
+
+///////// TRANSITION
+$smooth-trans: all 0.5s ease-in;
+
+///////// BREAKPONTS
+$bp-lg: 56.25em;
+$bp-md: 43.75em;
+
+////////// MIXIN
+@mixin alignItemCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//////////////////////////////////////
+/////////////////////////////////////
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $secondary-font;
+  font-weight: 300;
+  line-height: 1.5;
+  min-height: 100vh;
+  max-width: 100vw;
+  @include alignItemCenter();
+}
